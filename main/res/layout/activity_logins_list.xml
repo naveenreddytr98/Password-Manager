@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context=".LoginsListActivity">
+
+    <TextView
+        android:id="@+id/titleTxtView1"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:paddingLeft="@dimen/paddingTop5"
+        android:paddingTop="@dimen/paddingTop5"
+        android:paddingRight="@dimen/paddingTop5"
+        android:paddingBottom="@dimen/paddingbottom10"
+        android:text="@string/titleTxtStr"
+        android:textAlignment="center"
+        android:textColor="@color/black"
+        android:textSize="@dimen/titleTxtSize"
+        android:textStyle="bold" />
+
+    <androidx.recyclerview.widget.RecyclerView
+        android:id="@+id/userLoginsList"
+        android:paddingTop="20dp"
+        android:paddingBottom="20dp"
+        android:layout_width="409dp"
+        android:layout_height="729dp"
+        android:layout_marginTop="5dp"
+        android:background="#fff" />
+
+    <Button
+        android:id="@+id/addItemsId"
+        android:layout_width="310dp"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="50dp"
+        android:layout_marginTop="@dimen/paddingbottom10"
+        android:layout_marginRight="50dp"
+        android:paddingTop="@dimen/paddingTop5"
+        android:text="@string/addItemsBtnDesc"
+        android:textAlignment="center" />
+
+</LinearLayout>

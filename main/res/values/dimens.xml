@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <dimen name="titleTxtSize">40sp</dimen>
+    <dimen name="paddingTop5">5dp</dimen>
+    <dimen name="paddingbottom10">10dp</dimen>
+    <dimen name="btnEnterSize">30sp</dimen>
+</resources>
